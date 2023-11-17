@@ -35,7 +35,7 @@ pipeline {
                 // Configurer les notifications par e-mail en cas d'échec
                 emailext subject: 'Échec du pipeline Jenkins',
                           body: 'Il y a eu un échec dans le pipeline Jenkins. Veuillez vérifier et résoudre le problème.',
-                          to: 'makremnessib@gmail.com',
+                          to: 'sbentorkiaa@gmail.com',
                           attachLog: true
             }
         }
@@ -48,3 +48,4 @@ pipeline {
             echo 'Le pipeline a échoué. Veuillez vérifier et résoudre le problème.'
         }
     }
+}
